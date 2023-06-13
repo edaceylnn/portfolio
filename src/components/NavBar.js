@@ -160,7 +160,7 @@ const NavBar = () => {
             <TwitterIcon/>
           </a> */}
             <motion.a
-              href="/https://github.com/edaceylnn"
+              href="https://github.com/edaceylnn"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -169,8 +169,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="/www.linkedin.com/in/
-  edaceylan"
+    href="https://www.linkedin.com/in/edaceylan"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
