@@ -52,7 +52,7 @@ export default function Home() {
                   hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark md:p-2 md:px-4 md:text-base"
                   download={true}
                 >
-                  Resume <LinkArrow className={"w-4 ml-1 sm:w-6"} />
+                  Resume <LinkArrow className={"ml-1 w-6"} />
                 </Link>
                 {/* <Link href="mailto:edacey665@gmail.com" target={"_blank"} className="ml-4 text-lg font-medium capitalize text-dark underline">
                   Contact
