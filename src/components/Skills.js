@@ -21,7 +21,7 @@ const Skill = ({ name, x, y }) => {
 const Skills = () => {
   return (
     <>
-      <h2 className="font-bold text-6xl  w-full text-center md:text-4xl p-3">
+      <h2 className="font-bold text-6xl  w-full text-center md:text-4xl p-16">
         Technologies I use
       </h2>
       <div
@@ -38,11 +38,13 @@ const Skills = () => {
 
         <Skill name="HTML" x="-25vw" y="2vw" />
         <Skill name="CSS" x="-5vw" y="-10vw" />
-        <Skill name="Javascript" x="20vw" y="6vw" />
-        <Skill name="ReactJS" x="0vw" y="12vw" />
+        <Skill name="Vue.js" x="1vw" y="-20vw" />
+        <Skill name="JavaScript" x="20vw" y="6vw" />
+        <Skill name="React" x="0vw" y="12vw" />
         <Skill name="Bootstrap" x="15vw" y="-12vw" />
         <Skill name="Firebase" x="32vw" y="-5vw" />
         <Skill name="Tailwind CSS" x="-20vw" y="-13vw" />
+        <Skill name="TypeScript" x="-20vw" y="13vw" />
       </div>
     </>
   );

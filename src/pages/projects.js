@@ -6,10 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/food.png";
+import project2 from "../../public/images/card.png";
 
 const Project = ({ title, type, img, link, github, summary }) => {
   return (
-    <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative  ">
+    <article className="w-full flex flex-col items-center justify-center rounded-2xl h-[500px] border border-solid border-dark bg-light p-6 relative  ">
       <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]" />
       <Link
         href={link}
@@ -124,17 +125,17 @@ const projects = () => {
                 github="https://github.com/edaceylnn/food-app"
               />
             </div>
-            {/* <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                type="Featured Project"
-                title=""
-                summary="aaa"
-                // img={project1}
-                link="/"
-                github="/"
+                type=""
+                title="Card Project"
+                // summary="aaa"
+                img={project2}
+                link="https://fir-auth-c5b48.web.app/login"
+                github="https://github.com/edaceylnn/angular-firebase-auth"
               />
-            </div> */}
+            </div>
             {/* <div className="col-span-12">
               {" "}
               <FeaturedProject

@@ -28,7 +28,7 @@ export default function Home() {
             <div className="w-1/2 md:w-full">
               <Image
                 src={profilePic}
-              
+                alt="codeBucks"
                 className="w-full h-auto lg:hidden md:inline-block md:w-full"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width:1200px) 50vw,50vw"
@@ -42,17 +42,17 @@ export default function Home() {
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 I&apos;m Frontend Developer. I am dedicated to turning ideas
                 into innovative web applications. Explore my latest projects,
-                showcasing in React.js and web development.
+                showcasing in web development.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/Eda Ceylan resume.pdf"
+                  href="/resume.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
                   hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark md:p-2 md:px-4 md:text-base"
-                  // download={true}
+                  download={true}
                 >
-                  Resume <LinkArrow className={"ml-1 w-6"} />
+                  Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
                 {/* <Link href="mailto:edacey665@gmail.com" target={"_blank"} className="ml-4 text-lg font-medium capitalize text-dark underline">
                   Contact
