@@ -67,7 +67,7 @@ const NavBar = () => {
   };
 
   return (
-    <header className="w-full px-32 py-8 z-10 lg:px-16 md:px-12 sm:px-8 font-medium flex items-center justify-between dark:text-light relative">
+    <header className="w-full px-32 py-8 z-10 lg:px-16 md:px-12 sm:px-8 font-medium flex items-center justify-between dark:text-light mb-5">
       <button
         className="hidden lg:flex flex-col justify-center items-center "
         onClick={handleClick}
@@ -160,7 +160,7 @@ const NavBar = () => {
             <TwitterIcon/>
           </a> */}
             <motion.a
-              href="/https://github.com/edaceylnn"
+              href="https://github.com/edaceylnn"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -169,8 +169,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="/www.linkedin.com/in/
-  edaceylan"
+    href="https://www.linkedin.com/in/edaceylan"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}

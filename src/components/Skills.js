@@ -21,7 +21,7 @@ const Skill = ({ name, x, y }) => {
 const Skills = () => {
   return (
     <>
-      <h2 className="font-bold text-6xl  w-full text-center md:text-4xl p-16">
+      <h2 className="font-bold text-6xl  w-full text-center md:text-4xl p-3">
         Technologies I use
       </h2>
       <div
